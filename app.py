@@ -11,7 +11,7 @@ COR_FUNDO, COR_GRADE, COR_TEXTO = "#0f1116", "#2a2d36", "#eaecef"
 COR_BARRA, COR_LINHA = "#34a3ff", "#ff4d4f"
 
 # Logo
-st.image("wert_logo_btg.png", width=290) 
+st.image("wert_logo_btg.png", width=360) 
 st.title("Vencimentos de COEs")
 
 # upload
@@ -376,3 +376,4 @@ if "Nome_Cliente" in df.columns and not df.empty:
         )
 else:
     st.info("Base vazia ou sem coluna 'Nome_Cliente' para análise de ML.")
+
